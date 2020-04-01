@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListDetails">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="339dp"
+        android:layout_height="212dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_column="0"
+        app:srcCompat="@drawable/car2" />
+
+    <ImageButton
+        android:id="@+id/imageBtnPrev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:background="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="70dp"
+        app:srcCompat="@drawable/prevbtn" />
+
+    <ImageButton
+            android:id="@+id/imageBtnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="150dp"
+            android:background="#FFFFFF"
+            android:layout_toRightOf="@+id/imageBtnPrev"
+            app:srcCompat="@drawable/nextbtn" />
+</RelativeLayout>
